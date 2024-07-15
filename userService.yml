@@ -13,8 +13,8 @@ spring:
     show-sql: true
   application:
     name: User-Service
-  config:
-    import: configserver:http://localhost:8086
+  # config:
+  #   import: configserver:http://localhost:8086
 #  profiles:
 #    active: prod
 
